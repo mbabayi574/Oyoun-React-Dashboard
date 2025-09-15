@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+@import "./assets/iransans/iransans.css";
+
+html,
+body {
+  font-family: "iransans", sans-serif;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}

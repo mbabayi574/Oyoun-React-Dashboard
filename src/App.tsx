@@ -3,7 +3,9 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div>Hello World</div>
+      <div>
+        <h1 className="text-3xl font-stretch-normal">سلام علیکم</h1>
+      </div>
     </>
   );
 }
